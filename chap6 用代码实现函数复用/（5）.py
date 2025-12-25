@@ -1,0 +1,5 @@
+str1=str(input('请输入一个字符串：'))
+str1_reversed=list(reversed(str1))
+str2=''.join(str1_reversed)
+result=str(str2)
+print(result)

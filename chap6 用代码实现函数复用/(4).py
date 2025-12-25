@@ -1,0 +1,5 @@
+num=str(input('请输入一个整数：'))
+num=list(reversed(num))
+num_reversed=''.join(num)
+result=int(num_reversed)
+print(result)
